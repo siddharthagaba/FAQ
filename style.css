@@ -1,0 +1,55 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css")
+.navbar-brand img{
+    margin: 10px;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-size: 35px;
+    content: "\f106";
+    float: right;
+    margin-top: -12px;
+    font-weight:900
+
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section hr{
+    margin-bottom: 30px;
+    border-width:3px;
+}
+.accordion-section h2{
+    margin-top: 30px;
+}
+
+footer{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul{
+    list-style: none;
+}
+
+footer img{
+    display: block; 
+    padding: 100px auto; 
+    margin: auto;
+}
